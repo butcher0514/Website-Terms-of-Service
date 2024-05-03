@@ -1,0 +1,233 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网站服务条款</title>
+<style type="text/css">
+#policy {
+	font-family:Arial, 宋体;
+	margin:10px auto;                     /* 页面居中 */
+	box-sizing:content-box;               /* 尺寸计算方式为content-box */
+	width:400px;                          /* 盒子宽400px */
+	padding:20px;                         /* 内边距20px */
+	background-color:#e4e4e4;             /* 浅灰色背景 */
+	box-shadow:inset 0 0 15px 5px #bbb;   /* 向内的阴影 */
+}
+#policy header {
+	font-size:24px;
+	font-weight:bold;
+	line-height:25px;
+}
+#policy section {
+	background-color:#fff;
+	font-size:12px;
+	line-height:25px;
+	box-sizing:border-box;                /* 尺寸计算方式为border-box */
+	width:400px;                          /* 盒子宽400px */
+	height:200px;                         /* 盒子高200px */
+	padding:10px;                         /* 内边距10px */
+	border:1px solid #CCC;
+	overflow-x:hidden;                    /* 水平方向不设置滚动条 */
+	overflow-y:scroll;                    /* 垂直方向设置滚动条 */
+}
+#policy footer {
+	text-align:center;
+	padding-top:5px;
+}
+#policy footer input {
+	border:1px solid #666;
+	box-shadow:2px 2px 1px #BBB;          /* 按钮阴影 */
+}
+div {
+	width:100px;
+	height:80px;
+	max-width:600px;        /* 设置最大宽度限制 */
+	max-height:400px;       /* 设置最大高度限制 */
+	padding:10px;
+	border:1px solid #f90;
+	resize:both;             /* 设置元素的宽度和高度均可调整 */
+	overflow:auto;           /* 设置溢出属性值为auto */
+}
+#login {
+	margin:20px auto;
+	width:300px;
+	border:1px solid #f90;
+	padding:20px;
+	line-height:22px;
+	outline:2px solid #ccc;
+	background-color:#ffff99;
+	font-size:18px;
+}
+#login h1 {
+	font-size:18px;
+	margin:0;
+	padding:5px;
+	border-bottom:1px solid #fc6;
+	margin-bottom:10px;
+}
+#login label {
+	display:block;
+	width:100px;
+	float:left;
+	text-align:right;
+	clear:left;
+	margin-top:15px;
+}
+#login input {
+	float:left;
+	width:150px;
+	margin-top:15px;
+	line-height:22px;
+	height:22px;
+}
+#login input:focus {
+	outline:4px solid #fc6;
+}
+#login div {
+	clear:both;
+	padding-left:100px;
+	padding-top:20px;
+	font-size:12px;
+}
+#login div button {
+	width:80px;
+	font-size:14px;
+	line-height:22px;
+	background-image: -moz-linear-gradient(top, #ffffcc, #ffcc99);           /* 渐变 */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffcc), to(#ffcc99));  /* 渐变 */
+	border:1px solid #f90;
+}
+#login div button:hover {
+	outline:4px solid #fc6;
+}
+div, a, input[type=text] {
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+}
+#nav {
+	width:240px;
+	padding:10px;
+	height:130px;
+	font-size:14px;
+}
+#nav a {
+	font-size:12px;
+	padding:0 10px;
+	line-height:22px;
+	text-decoration:none;
+	color:#00F;
+}
+#nav {
+	margin:20px auto;
+	width:200px;
+	border:1px solid #f90;
+	padding:20px;
+	line-height:22px;
+	font-size:18px;
+}
+#nav a {
+	display:block;
+	font-size:12px;
+	line-height:22px;
+	color:#00F;
+}
+/* 筛选链接地址，添加不同的内容 */
+a[href$=html]:before {
+ content:"网页：";
+}
+a[href$=jpg]:before {
+ content:"图片：";
+}
+a[href$=doc]:before {
+ content:"Word文档：";
+}
+a[href$=pdf]:before {
+ content:url("images/pdf.gif");
+ #disk {
+	width:340px;
+	padding:10px;
+	resize:both;
+	overflow:auto;
+	border:1px solid #f90;
+	line-height:22px;
+}
+#disk a {
+	display:block;
+	float:left;
+	width:60px;
+	text-align:center;
+	text-decoration:none;
+	font-size:12px;
+	line-height:20px;
+	margin:3px;
+	border:1px solid #ccc;
+	background-color:#e4e4e4;
+	counter-increment:mycounter;    /* 定义计数器 */
+}
+#disk a:focus {
+	outline:2px solid #fc6;         /* 设置外轮廓 */
+	outline-offset:2px;
+}
+#disk a:hover {
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+}
+#disk a:before {
+	content:counter(mycounter)".";  /* 生成项目符号 */
+}
+}
+</style>
+</head>
+<body>
+<div id="disk"> <a href="#">北京</a> <a href="#">上海</a> <a href="#">天津</a> <a href="#">重庆</a> <a href="#">安徽</a> <a href="#">福建</a> <a href="#">甘肃</a> <a href="#">广东</a> <a href="#">广西</a> <a href="#">贵州</a> <a href="#">海南</a> <a href="#">河北</a> <a href="#">河南</a> <a href="#">湖北</a> <a href="#">湖南</a> <a href="#">吉林</a> <a href="#">江苏</a> <a href="#">江西</a> <a href="#">辽宁</a> <a href="#">宁夏</a> <a href="#">青海</a> <a href="#">山东</a> <a href="#">山西</a> <a href="#">陕西</a> <a href="#">四川</a> <a href="#">西藏</a> <a href="#">新疆</a> <a href="#">云南</a> <a href="#">浙江</a><a href="#">黑龙江</a> <a href="#">内蒙古</a><a href="#">台湾</a><a href="#">香港</a><a href="#">澳门</a> </div>
+</body>
+
+
+<div id="nav"><a href="Code4-17.html">登录页面</a> <a href="images/IL5.jpg">杭州风光</a> <a href="images/test.doc">参考资料</a> <a href="images/Pattern.pdf">设计模式培训</a> </div>
+<div id="nav">
+  <input type="text" name="key" value="关键词">
+  <a href="#">搜索</a><br>
+  热门关键词：<br>
+  <a href="#">CSS3</a><a href="#">HTML5</a><a href="#">移动开发</a></div>
+<form id="form1" name="form1" method="post" action="">
+  <div id="login">
+    <h1>用户登录</h1>
+    <label for="UserName">用户名：</label>
+    <input type="text" name="UserName" id="UserName">
+    <label for="Password">密码：</label>
+    <input type="password" name="Password" id="Password">
+    <div>
+      <button>登录</button>
+      <a href="#">忘记密码？</a> </div>
+  </div>
+</form>
+<div> 如果你在使用Firefox或Chrome，那么你肯定注意到了textarea标签元素的右下角默认有个小的手柄，它可以让你调整它们的大小。
+CSS3新增的resize属性，可以把其他元素也应用同样的效果。  resize属性定义一个元素是否允许用户调整大小。</div>
+<div id="policy">
+  <header>网站服务条款</header>
+  <section>
+    <p> 用户必须单独承担发布内容的责任。用户对论坛服务的使用是根据所有适用于本论坛的国家法律、地方法律和国际法律标准的。</p>
+    <p> 用户不得在本站论坛发布含有下列内容之一的信息:</p>
+    <p> (1) 反对宪法所确定的基本原则; </p>
+    <p>(2) 危害国家安全,泄露国家秘密,颠覆国家政权,破坏国家统一; </p>
+    <p>(3) 损害国家荣誉和利益; </p>
+    <p>(4) 煽动民族仇恨、民族歧视,破坏民族团结; </p>
+    <p>(5) 破坏国家宗教政策,宣扬邪教和封建迷信; </p>
+    <p>(6) 散布谣言,扰乱社会秩序,破坏社会稳定;</p>
+    <p> (7) 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪; </p>
+    <p>(8) 侮辱或者诽谤他人,侵害他人合法权益;</p>
+    <p> (9) 连锁信件,金字塔方案及蛊惑性文章;</p>
+    <p> (10) 任何涉及他人版权的资料的非法复制和传播; </p>
+    <p>(11) 任何未经本站许可的商业性质的广告; </p>
+    <p>(12) 含有法律、行政法规禁止的其他内容。 </p>
+  </section>
+  <footer>
+    <input type="button" value="同意" />
+    <input type="button" value="不同意" />
+  </footer>
+</div>
+</body>
+</html>
